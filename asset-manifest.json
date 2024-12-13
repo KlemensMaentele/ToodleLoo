@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KlemensMaentele/ToodleLoo/static/css/main.62c90726.css",
+    "main.js": "/KlemensMaentele/ToodleLoo/static/js/main.7a5a9cab.js",
+    "index.html": "/KlemensMaentele/ToodleLoo/index.html",
+    "main.62c90726.css.map": "/KlemensMaentele/ToodleLoo/static/css/main.62c90726.css.map",
+    "main.7a5a9cab.js.map": "/KlemensMaentele/ToodleLoo/static/js/main.7a5a9cab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c90726.css",
+    "static/js/main.7a5a9cab.js"
+  ]
+}
