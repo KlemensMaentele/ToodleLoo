@@ -19,10 +19,19 @@ const TaskInput = ({ onAdd, onCancel }) => {
     } else if (input === 'clean bathroom') {
       setUrgency('mid');
       setImportance('mid');
+    } else if (input === 'workout') {
+      setUrgency('mid');
+      setImportance('high');
+    } else if (input === 'cancel netflix') {
+      setUrgency('low');
+      setImportance('low');
+    } else if (input === 'call Anton') {
+      setUrgency('high');
+      setImportance('mid');
     } else {
       //setUrgency('');
       //setImportance('');
-    }
+    }    
   }, [description]);
 
   const handleSubmit = (e) => {
