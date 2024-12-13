@@ -10,19 +10,19 @@ const TaskInput = ({ onAdd, onCancel }) => {
   useEffect(() => {
     const input = description.trim().toLowerCase();
 
-    if (input === 'finish iui report') {
-      setUrgency('high');
-      setImportance('high');
-    } else if (input === 'book train home') {
-      setUrgency('low');
-      setImportance('high');
-    } else if (input === 'clean bathroom') {
-      setUrgency('mid');
-      setImportance('mid');
-    } else {
-      //setUrgency('');
-      //setImportance('');
-    }
+    // if (input === 'finish iui report') {
+    //   setUrgency('high');
+    //   setImportance('high');
+    // } else if (input === 'book train home') {
+    //   setUrgency('low');
+    //   setImportance('high');
+    // } else if (input === 'clean bathroom') {
+    //   setUrgency('mid');
+    //   setImportance('mid');
+    // } else {
+    //   //setUrgency('');
+    //   //setImportance('');
+    // }
   }, [description]);
 
   const handleSubmit = (e) => {
