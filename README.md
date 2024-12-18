@@ -1,4 +1,5 @@
 ## Get started
+You should have nodejs installed installation guide can be found here: https://nodejs.org/en/download/package-manager
 
 1. Install dependencies
 
@@ -9,5 +10,5 @@
 2. Start the app
 
    ```bash
-    npx start
+    npx react-scripts start
    ```
